@@ -14,4 +14,9 @@ public class Retangulo extends Quadrilatero {
     public String toString() {
         return "Retangulo";
     }
+
+    public int compareTo(Object o) {
+        Quadrilatero q = (Quadrilatero) o;
+        return this.calcularArea() - q.calcularArea();
+    }
 }

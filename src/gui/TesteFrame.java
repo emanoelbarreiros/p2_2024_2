@@ -1,6 +1,8 @@
 package gui;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class TesteFrame {
     private JPanel pnlMain;
@@ -10,6 +12,7 @@ public class TesteFrame {
     private JRadioButton rb1;
 
     public TesteFrame() {
+        button1.addActionListener(new BotaoActionListener());
     }
 
     public JPanel getPnlMain() {

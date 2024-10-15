@@ -1,6 +1,6 @@
 package polimorfismo;
 
-public abstract class Quadrilatero {
+public abstract class Quadrilatero implements Comparable {
     private int tamLado1;
     private int tamLado2;
     private int tamLado3;

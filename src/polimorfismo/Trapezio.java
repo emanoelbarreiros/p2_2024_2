@@ -9,7 +9,6 @@ public class Trapezio extends Quadrilatero {
         this.altura = altura;
     }
 
-
     public int calcularArea() {
         return (this.getTamLado4() + this.getTamLado3()) * this.altura / 2;
     }
@@ -20,5 +19,11 @@ public class Trapezio extends Quadrilatero {
 
     public int getAltura() {
         return this.altura;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        Quadrilatero q = (Quadrilatero) o;
+        return this.calcularArea() - q.calcularArea();
     }
 }
