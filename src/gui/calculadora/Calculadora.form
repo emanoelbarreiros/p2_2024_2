@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.calculadora.Calculadora">
+  <grid id="27dc6" binding="pnlMain" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="79751" class="javax.swing.JTextField" binding="visor">
+        <constraints border-constraint="North"/>
+        <properties>
+          <columns value="10"/>
+          <font size="28"/>
+        </properties>
+      </component>
+      <grid id="e636b" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ccf52" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="7ce3c" class="javax.swing.JButton" binding="botao7">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="7"/>
+                </properties>
+              </component>
+              <component id="74ae9" class="javax.swing.JButton" binding="botao8">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="8"/>
+                </properties>
+              </component>
+              <component id="cf5ba" class="javax.swing.JButton" binding="botao9">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="9"/>
+                </properties>
+              </component>
+              <component id="fb6aa" class="javax.swing.JButton" binding="botaoDivisao">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="/"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="14dcf" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="2a508" class="javax.swing.JButton" binding="botao4">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="4"/>
+                </properties>
+              </component>
+              <component id="c1edc" class="javax.swing.JButton" binding="botao5">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="5"/>
+                </properties>
+              </component>
+              <component id="a4af8" class="javax.swing.JButton" binding="botao6">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="6"/>
+                </properties>
+              </component>
+              <component id="82bfb" class="javax.swing.JButton" binding="botaoMultiplicacao">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="*"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="50c8e" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f3ee2" class="javax.swing.JButton" binding="botao1">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="1"/>
+                </properties>
+              </component>
+              <component id="507ba" class="javax.swing.JButton" binding="botao2">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="2"/>
+                </properties>
+              </component>
+              <component id="24ba6" class="javax.swing.JButton" binding="botao3">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="3"/>
+                </properties>
+              </component>
+              <component id="bd0b8" class="javax.swing.JButton" binding="botaoSubtracao">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9c7f9" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9fec0" class="javax.swing.JButton" binding="botao0">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="674ef" class="javax.swing.JButton" binding="botaoPonto">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="."/>
+                </properties>
+              </component>
+              <component id="147f1" class="javax.swing.JButton" binding="botaoIgual">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="="/>
+                </properties>
+              </component>
+              <component id="fcc18" class="javax.swing.JButton" binding="botaoSoma">
+                <constraints/>
+                <properties>
+                  <font size="22"/>
+                  <preferredSize width="60" height="60"/>
+                  <text value="+"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
